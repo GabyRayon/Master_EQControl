@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "684896968364",
+    "firebase_url": "https://eqcontrol-ad48c.firebaseio.com",
+    "project_id": "eqcontrol-ad48c",
+    "storage_bucket": "eqcontrol-ad48c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684896968364:android:9d4a11e8cc05e501",
+        "android_client_info": {
+          "package_name": "com.ygrs.eqcontrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684896968364-sdhsj73b19vss7u91vhhm20262io8gdf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfhWjbvApfxP0XUeetaA7-yXjmamHNaOY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

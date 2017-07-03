@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activit_login"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center"
+    tools:context="com.ygrs.eqcontrol.Login"
+    >
+
+    <LinearLayout
+        android:layout_width="@dimen/layout_width_login"
+        android:layout_height="@dimen/layout_height_login"
+        android:gravity="center"
+        android:background="@drawable/round_corner_banerlogin"
+        android:paddingTop="@dimen/simplepading"
+        android:elevation="@dimen/materialelevationsimple"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:text="@string/login_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tittle_text"
+            android:padding="@dimen/simplepading"
+            android:textColor="@color/primary_text_white"
+            android:id="@+id/txtname"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/txtname_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tittle_text"
+            android:padding="@dimen/simplepading"
+            android:textColor="@color/primary_text_white"
+            android:layout_weight="1" />
+
+
+        <Button
+            android:text="@string/button_accept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/normal_text"
+            android:padding="@dimen/simplepading"
+            android:layout_margin="@dimen/simplemargin"
+            android:textColor="@color/primary_text_white"
+            android:background="@color/colorAccent"
+            android:elevation="@dimen/materialelevationtriple"
+            android:id="@+id/buttonAcept"
+            android:layout_weight=".1" />
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>

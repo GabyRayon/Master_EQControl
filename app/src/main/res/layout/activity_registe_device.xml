@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activit_login"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    tools:context="com.ygrs.eqcontrol.Login"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:background="@drawable/round_corner_banerlogin"
+            android:paddingTop="@dimen/simplepading"
+            android:elevation="@dimen/materialelevationsimple"
+            android:layout_marginTop="@dimen/topmargin"
+            android:layout_marginLeft="@dimen/simplemargin"
+            android:layout_marginRight="@dimen/simplemargin"
+            android:paddingBottom="@dimen/simplepadingbottom"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:text="@string/date_device"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/tittle_text"
+                android:padding="@dimen/simplepading"
+                android:textColor="@color/primary_text_white"
+                android:id="@+id/txtdate_device"
+                />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:background="@drawable/background_edittext"
+                android:gravity="center"
+                android:padding="@dimen/simplepading"
+                android:hint="@string/date_device_tip"
+                android:textSize="@dimen/normal_text"
+                android:elevation="@dimen/materialelevationdouble"
+                android:layout_margin="@dimen/simplemargin"
+                android:ems="10"
+                android:id="@+id/date_device"
+                />
+
+            <TextView
+                android:text="@string/marca_device"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/tittle_text"
+                android:padding="@dimen/simplepading"
+                android:textColor="@color/primary_text_white"
+                android:id="@+id/txtmarca_device"
+                />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:background="@drawable/background_edittext"
+                android:gravity="center"
+                android:padding="@dimen/simplepading"
+                android:hint="@string/marca_device_tip"
+                android:textSize="@dimen/normal_text"
+                android:elevation="@dimen/materialelevationdouble"
+                android:layout_margin="@dimen/simplemargin"
+                android:ems="10"
+                android:id="@+id/marca_device"
+                />
+
+            <TextView
+                android:text="@string/modelo_device"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/tittle_text"
+                android:padding="@dimen/simplepading"
+                android:textColor="@color/primary_text_white"
+                android:id="@+id/txtmodelo_device"
+                />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:background="@drawable/background_edittext"
+                android:gravity="center"
+                android:padding="@dimen/simplepading"
+                android:hint="@string/modelo_device_tip"
+                android:textSize="@dimen/normal_text"
+                android:elevation="@dimen/materialelevationdouble"
+                android:layout_margin="@dimen/simplemargin"
+                android:ems="10"
+                android:id="@+id/modelo_device"
+                />
+
+            <TextView
+                android:text="@string/numeroserie_device"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/tittle_text"
+                android:padding="@dimen/simplepading"
+                android:textColor="@color/primary_text_white"
+                android:id="@+id/txtnumeroserie_device"
+                />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:background="@drawable/background_edittext"
+                android:gravity="center"
+                android:padding="@dimen/simplepading"
+                android:hint="@string/numeroserie_device_tip"
+                android:textSize="@dimen/normal_text"
+                android:elevation="@dimen/materialelevationdouble"
+                android:layout_margin="@dimen/simplemargin"
+                android:ems="10"
+                android:id="@+id/numeroserie_device"
+
+                />
+
+
+            <Button
+            android:text="@string/button_accept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/normal_text"
+            android:padding="@dimen/simplepading"
+            android:layout_margin="@dimen/simplemargin"
+            android:textColor="@color/primary_text_white"
+            android:background="@color/colorAccent"
+            android:elevation="@dimen/materialelevationtriple"
+            android:id="@+id/ButtonAceptDevice"
+            />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+

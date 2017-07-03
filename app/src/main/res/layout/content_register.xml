@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    tools:context="com.ygrs.eqcontrol.Login"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@drawable/round_corner_banerlogin"
+        android:paddingTop="@dimen/simplepading"
+        android:elevation="@dimen/materialelevationsimple"
+        android:layout_marginTop="@dimen/topmargin"
+        android:layout_marginLeft="@dimen/simplemargin"
+        android:layout_marginRight="@dimen/simplemargin"
+        android:paddingBottom="@dimen/simplepadingbottom"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:text="@string/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tittle_text"
+            android:padding="@dimen/simplepading"
+            android:textColor="@color/primary_text_white"
+            android:id="@+id/txtnameregister"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:background="@drawable/background_edittext"
+            android:gravity="center"
+            android:padding="@dimen/simplepading"
+            android:hint="@string/user_name_tip"
+            android:textSize="@dimen/normal_text"
+            android:elevation="@dimen/materialelevationdouble"
+            android:layout_margin="@dimen/simplemargin"
+            android:ems="10"
+            android:id="@+id/nameregister"
+            />
+
+
+        <TextView
+            android:text="@string/ap_paterno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tittle_text"
+            android:padding="@dimen/simplepading"
+            android:textColor="@color/primary_text_white"
+            android:id="@+id/txtap_paternoregister"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:background="@drawable/background_edittext"
+            android:gravity="center"
+            android:padding="@dimen/simplepading"
+            android:hint="@string/ap_paterno_tip"
+            android:textSize="@dimen/normal_text"
+            android:elevation="@dimen/materialelevationdouble"
+            android:layout_margin="@dimen/simplemargin"
+            android:ems="10"
+            android:id="@+id/ap_paterno"
+            />
+
+
+
+        <TextView
+            android:text="@string/ap_materno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tittle_text"
+            android:padding="@dimen/simplepading"
+            android:textColor="@color/primary_text_white"
+            android:id="@+id/txtap_maternoregister"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:background="@drawable/background_edittext"
+            android:gravity="center"
+            android:padding="@dimen/simplepading"
+            android:hint="@string/ap_materno_tip"
+            android:textSize="@dimen/normal_text"
+            android:elevation="@dimen/materialelevationdouble"
+            android:layout_margin="@dimen/simplemargin"
+            android:ems="10"
+            android:id="@+id/ap_materno"
+            />
+
+
+        <TextView
+            android:text="@string/carrera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tittle_text"
+            android:padding="@dimen/simplepading"
+            android:textColor="@color/primary_text_white"
+            android:id="@+id/txtcarrera_register"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:background="@drawable/background_edittext"
+            android:gravity="center"
+            android:padding="@dimen/simplepading"
+            android:hint="@string/carrera_tip"
+            android:textSize="@dimen/normal_text"
+            android:elevation="@dimen/materialelevationdouble"
+            android:layout_margin="@dimen/simplemargin"
+            android:ems="10"
+            android:id="@+id/carrera"
+            />
+
+        <TextView
+            android:text="@string/matricula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tittle_text"
+            android:padding="@dimen/simplepading"
+            android:textColor="@color/primary_text_white"
+            android:id="@+id/txtmatricula_register"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:background="@drawable/background_edittext"
+            android:gravity="center"
+            android:padding="@dimen/simplepading"
+            android:hint="@string/matricula_tip"
+            android:textSize="@dimen/normal_text"
+            android:elevation="@dimen/materialelevationdouble"
+            android:layout_margin="@dimen/simplemargin"
+            android:ems="10"
+            android:id="@+id/matricula"
+            />
+
+
+        <TextView
+            android:text="@string/password_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tittle_text"
+            android:padding="@dimen/simplepading"
+            android:textColor="@color/primary_text_white"
+            android:id="@+id/txtpassword_register"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:background="@drawable/background_edittext"
+            android:gravity="center"
+            android:padding="@dimen/simplepading"
+            android:hint="@string/password_register_tip"
+            android:textSize="@dimen/normal_text"
+            android:elevation="@dimen/materialelevationdouble"
+            android:layout_margin="@dimen/simplemargin"
+            android:ems="10"
+            android:id="@+id/password_register"
+            />
+
+
+        <TextView
+            android:text="@string/confirm_password_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tittle_text"
+            android:padding="@dimen/simplepading"
+            android:textColor="@color/primary_text_white"
+            android:id="@+id/txtconfirm_password_register"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:background="@drawable/background_edittext"
+            android:gravity="center"
+            android:padding="@dimen/simplepading"
+            android:hint="@string/confirm_password_register_tip"
+            android:textSize="@dimen/normal_text"
+            android:elevation="@dimen/materialelevationdouble"
+            android:layout_margin="@dimen/simplemargin"
+            android:ems="10"
+            android:id="@+id/confirm_password_register"
+        />
+
+        <Button
+            android:text="@string/button_accept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/normal_text"
+            android:padding="@dimen/simplepading"
+            android:layout_margin="@dimen/simplemargin"
+            android:textColor="@color/primary_text_white"
+            android:background="@color/colorAccent"
+            android:elevation="@dimen/materialelevationtriple"
+            android:id="@+id/buttonAcept"
+            />
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

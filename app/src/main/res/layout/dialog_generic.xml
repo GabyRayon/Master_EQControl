@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:elevation="@dimen/materialelevationtriple"
+        android:layout_margin="@dimen/simplemargin"
+        android:background="@drawable/round_corner_banerlogin">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primary_text_white"
+        android:text="Title"
+        android:textSize="@dimen/big_tittle_text"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/image"/>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primary_text_white"
+            android:text="Text"
+            android:textSize="@dimen/normal_text"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/image"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/simplemargin"
+            >
+
+
+        <Button
+            android:id="@+id/dialogButtonOK"
+            android:layout_width="@dimen/simplepadingbottom"
+            android:layout_height="@dimen/simplepadingbottomheigth"
+            android:background="@color/colorAccent"
+            android:textColor="@color/primary_text_white"
+            android:layout_margin="@dimen/simplemargin"
+            android:text="@string/button_accept"
+            />
+
+        <Button
+            android:id="@+id/dialogButtonNOK"
+            android:layout_width="@dimen/simplepadingbottom"
+            android:layout_height="@dimen/simplepadingbottomheigth"
+            android:background="@color/colorAccent"
+            android:textColor="@color/primary_text_white"
+            android:text="@string/button_cancel"
+            />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

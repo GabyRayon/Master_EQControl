@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    tools:context="com.ygrs.eqcontrol.Login"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:background="@drawable/round_corner_banerlogin"
+            android:paddingTop="@dimen/simplepading"
+            android:elevation="@dimen/materialelevationsimple"
+            android:layout_marginTop="@dimen/topmargin"
+            android:layout_marginLeft="@dimen/simplemargin"
+            android:layout_marginRight="@dimen/simplemargin"
+            android:paddingBottom="@dimen/simplepadingbottom"
+            android:orientation="vertical"
+
+            >
+
+            <Button
+                android:text="@string/button_accept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/normal_text"
+                android:padding="@dimen/simplepading"
+                android:layout_margin="@dimen/simplemargin"
+                android:textColor="@color/primary_text_white"
+                android:background="@color/colorAccent"
+                android:elevation="@dimen/materialelevationtriple"
+                android:id="@+id/ButtonAceptConsult"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+    </LinearLayout>
